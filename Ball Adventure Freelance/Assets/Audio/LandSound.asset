@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff0c20d6fec4da408abdedfd0e06061, type: 3}
+  m_Name: LandSound
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 3469c1b84a5e1f843b4369b1b06ea924, type: 3}
+  - {fileID: 8300000, guid: 3f58edb5efcce8549aa87b911b0ecd5f, type: 3}
+  - {fileID: 8300000, guid: a5f9e651f341cb04480d932351010ae4, type: 3}
+  - {fileID: 8300000, guid: 4a5bccd667a921f459150c4f6444f911, type: 3}
+  - {fileID: 8300000, guid: 0a4fd7d9643b2b848a014acc07f5cf4d, type: 3}
+  volume: {x: 1, y: 1}
+  pitch: {x: 1, y: 1}
+  soundSourceID: 1
+  soundType: 0
+  playOrder: 0

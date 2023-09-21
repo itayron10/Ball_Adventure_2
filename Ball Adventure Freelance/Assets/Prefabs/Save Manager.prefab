@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103414451382414060
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3230823093181686675}
+  - component: {fileID: 3142174570611621258}
+  m_Layer: 0
+  m_Name: Save Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3230823093181686675
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103414451382414060}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3142174570611621258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103414451382414060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d734a72995e1624cbc6b223e02e8990, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalCoinAmount: 0
+  playerSkinIndex: 0
+  levelsData:
+  - {fileID: 11400000, guid: d00739c20ac372740a8628d1495e27cc, type: 2}
+  - {fileID: 11400000, guid: 0ebec903585e0d6498a9eb52fabcbcfe, type: 2}
+  - {fileID: 11400000, guid: b422a2e7dfd49664fa2922ae2fdcf5cd, type: 2}
+  - {fileID: 11400000, guid: a190625cf6daadb4b975f5a046e8d209, type: 2}
+  - {fileID: 11400000, guid: db58e7f7f8ae56043bdb470e7978b60e, type: 2}
+  - {fileID: 11400000, guid: 3138f6449e238c5478e8b6f6bdba2134, type: 2}
+  skinsData:
+  - {fileID: 11400000, guid: 19111e92b3effed4db61748cb3843fcb, type: 2}
+  - {fileID: 11400000, guid: a937e20027cbe944c9a0e5c9a14e343f, type: 2}
+  - {fileID: 11400000, guid: 928762716f555f94792608645928742e, type: 2}
+  - {fileID: 11400000, guid: 77b4eb341fc9fae4a95112f1fc273ff0, type: 2}
+  - {fileID: 11400000, guid: 56040656734939345983035bcffa72ae, type: 2}
+  sfxOn: 1
+  musicOn: 1

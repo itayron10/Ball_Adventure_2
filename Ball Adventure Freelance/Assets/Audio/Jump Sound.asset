@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff0c20d6fec4da408abdedfd0e06061, type: 3}
+  m_Name: Jump Sound
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 0004ea24e690b204590c157fe546b8f3, type: 3}
+  - {fileID: 8300000, guid: 1b1d5efe56b9a2945b1dce3b3ed60347, type: 3}
+  - {fileID: 8300000, guid: 8aa99e520d4c26645bd99ad0a9d18564, type: 3}
+  - {fileID: 8300000, guid: 58cc428254176bd4799c63b4f6e3c89d, type: 3}
+  volume: {x: 0.9, y: 1}
+  pitch: {x: 0.9, y: 1.1}
+  soundSourceID: 1
+  soundType: 0
+  playOrder: 0

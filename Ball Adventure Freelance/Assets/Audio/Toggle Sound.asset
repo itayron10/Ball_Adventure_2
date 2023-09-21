@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff0c20d6fec4da408abdedfd0e06061, type: 3}
+  m_Name: Toggle Sound
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 5158b6e39588722448aae392c3df48da, type: 3}
+  - {fileID: 8300000, guid: cba23437dae98f44cbf91e9265bc00aa, type: 3}
+  - {fileID: 8300000, guid: 9e2bf22e95fa337499f7ec18957671ff, type: 3}
+  - {fileID: 8300000, guid: fe1eac9eab241124d876f30f1e31f6ff, type: 3}
+  volume: {x: 0.9, y: 1}
+  pitch: {x: 0.9, y: 1.1}
+  soundSourceID: 1
+  soundType: 0
+  playOrder: 0
