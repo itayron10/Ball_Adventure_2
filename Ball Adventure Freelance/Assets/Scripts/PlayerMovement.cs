@@ -83,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
     private void JetpackJumpStart(UnityEngine.InputSystem.InputAction.CallbackContext obj)
     {
         if (!jetpackMode) { return; }
+        Debug.Log("Wow");
         jetpackActive = true;
         rb.gravityScale = rb.gravityScale / 2;
         soundManager.PlaySound(jetpackSound);
